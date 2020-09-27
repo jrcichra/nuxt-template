@@ -6,4 +6,4 @@ COPY pages ./pages
 COPY layouts ./layouts
 COPY assets ./assets
 COPY components ./components
-RUN yarn dev
+CMD yarn dev
